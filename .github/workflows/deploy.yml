@@ -20,5 +20,4 @@ jobs:
         username: ${{ secrets.USER_NAME }}
         key: ${{ secrets.PRIVATE_KEY }}
         script: |
-          cd /var/www
           git pull origin main
